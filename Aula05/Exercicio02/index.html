@@ -50,6 +50,16 @@
                 <option value="pr">Paraná</option>
             </select><br>
 
+            <label for="cities">Cidade</label><br>
+            <input list="cities" name="city">
+            <datalist id="cities">
+                <option value="Sorocaba">
+                <option value="Florianopolis">
+                <option value="Belho Horizonte">
+                <option value="Curtitba">
+
+            </datalist><br>
+
             <label for="cep">CEP</label><br>
             <input type="number" id="cep" name="cep">
 
@@ -60,7 +70,7 @@
 
             <input type="radio" id="masc" name="type_gender" value="Masculino">
             <label for="masculino">Masculino</label><br>
-    
+
             <input type="radio" id="fem" name="type_gender" value="Feminino">
             <label for="feminino">Feminino</label><br>
 
@@ -97,6 +107,10 @@
             <label for="semi-presencial">Semi-presencial</label><br>
 
         </fieldset>
+
+        <br><br>
+        
+        <input type="submit" value="Enviar">
 
     </form>
 
