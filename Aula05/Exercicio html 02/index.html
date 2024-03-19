@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <form action="https://www.w3schools.com/action_page.php" method="post">
+        <label for="date">DATA </label><input type="date" name="Data">
+
+        <br><br>
+
+        <fieldset style="width: 200px;">
+            <legend>Login</legend>
+            <label for="user">Usuário</label>
+            <input type="text" id="user" name="user"><br>
+            <label for="password">Senha</label><br>
+            <input type="password" id="password" name="password">
+        </fieldset>
+
+        <br><br>
+
+        <fieldset style="width: 200px;">
+            <legend>Dados pessoais:</legend>
+
+            <label for="name">Nome</label><br>
+            <input type="text" id="name" name="name"><br><br>
+
+            <legend>Endereço</legend>
+
+            <label for="street">Rua</label><br>
+            <input type="text" id="street" name="street"><br>
+
+            <label for="number">Número</label><br>
+            <input type="number" id="street" name="street"><br>
+
+            <label for="complement">Complemento</label><br>
+            <input type="text" id="complement" name="complement"><br>
+
+            <label for="estate">Estado</label><br>
+            <select id="estate" name="estate">
+                <option value="escolha" selected>Escolha uma opção</option>
+                <option value="sp">São Paulo</option>
+                <option value="sc">Santa Catarina</option>
+                <option value="mg">Minas Gerais</option>
+                <option value="pr">Paraná</option>
+            </select><br>
+
+            <label for="cep">CEP</label><br>
+            <input type="number" id="cep" name="cep">
+
+        </fieldset>
+
+        <fieldset style="width: 200px;">
+            <legend>Gênero:</legend>
+
+            <input type="radio" id="masc" name="type_gender" value="Masculino">
+            <label for="masculino">Masculino</label><br>
+    
+            <input type="radio" id="fem" name="type_gender" value="Feminino">
+            <label for="feminino">Feminino</label><br>
+
+            <input type="radio" id="nd" name="type_gender" value="Nd">
+            <label for="nd">Prefiro não dizer</label><br>
+        </fieldset>
+
+        <fieldset style="width: 200px;">
+            <legend>Curso:</legend>
+
+            <input type="checkbox" id="ADS" name="ADS" value="ADS">
+            <label for="ADS">ADS</label><br>
+
+            <input type="checkbox" id="Jogos" name="jogos" value="Jogos">
+            <label for="jogos">Jogos</label><br>
+
+            <input type="checkbox" id="gestaoDeTi" name="gestaoDeTi" value="Gestão de ti">
+            <label for="gestaoDeTi">Gestão de TI</label><br>
+
+            <input type="checkbox" id="Bd" name="bd" value="Bd">
+            <label for="bd">Banco de Dados</label>
+        </fieldset>
+
+        <fieldset style="width: 200px;">
+            <legend>Modalidade</legend>
+
+            <input type="radio" id="presencial" name="modalidade" value="Presencial">
+            <label for="presencial">Presencial</label><br>
+
+            <input type="radio" id="ead" name="modalidade" value="Ead">
+            <label for="eadl">EAD</label><br>
+
+            <input type="radio" id="semi-presencial" name="modalidade" value="Semi-presencial">
+            <label for="semi-presencial">Semi-presencial</label><br>
+
+        </fieldset>
+
+    </form>
+
+</body>
+
+</html>
