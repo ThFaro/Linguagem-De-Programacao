@@ -1,0 +1,63 @@
+/* Reset CSS */
+
+* {
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+}
+
+body {
+    /* deixnado o corpo preenchendo a pagina inteira */
+    height: 100vh;
+}
+
+/* ================================================================= */
+
+.caixa1 {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(195, 255, 0);
+    text-align: center;
+    /* alinhahdo na vertical */
+    line-height: 100px;
+    vertical-align: middle;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    border: 2px solid black;
+    /* colocando a caixa no centro sem flexbox */
+    margin: 0 auto;
+    /* descolando to topo */
+    margin-top: 20px;
+    /* arrendondando a caixa */
+    border-radius: 20px;
+
+}
+
+.caixa2{
+ 
+    background-color: rgb(82, 4, 142);
+    margin: 0 0 0 auto;
+    
+
+}
+
+.caixa3{
+
+    background-color: rgb(19, 2, 74);
+    color: white;
+    margin: 0 0 auto;
+
+}
+
+.container{
+    margin: 50px;
+}
+
+header{
+    background-color: blue;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+}

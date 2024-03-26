@@ -1,0 +1,48 @@
+body {
+    background-color: rgb(226, 141, 37);
+}
+
+
+img {
+    border: 2px solid black;
+    border-radius: 100px;
+    height: 100px;
+    width: 100px;
+
+
+}
+
+h1 {
+    font-size: 70px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+p {
+    text-align: center;
+    font-size: 20px;
+}
+
+#p1 {
+    text-align: right;
+}
+
+#p2 {
+    text-align: justify;
+    text-decoration: underline;
+}
+
+.minhaClasse {
+    color: cadetblue;
+    font-size: 90px;
+}
+
+h2 {
+    color: darkblue;
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.outraClasse{
+    color: darkred;
+}
