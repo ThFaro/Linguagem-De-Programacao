@@ -1,0 +1,57 @@
+body {
+    background: rgb(5, 39, 27);
+}
+
+main {
+  display: flex;
+
+}
+
+footer{
+    display: flex;
+    ;
+}
+
+div{
+    display: flex;
+}
+
+.verde {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 5px solid rgba(21, 255, 0, 0.592);
+    align-items: flex-end;
+}
+
+.amarelo {
+
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 5px solid rgb(255, 221, 0);
+    align-items: flex-end;
+    justify-content: flex-end;
+
+}
+
+#verdeId{
+    display: flex;
+    height: 650px;
+    align-items: flex-end;
+}
+
+#vermelhoId{
+    display: flex;
+    height: 650px;
+    align-items: flex-end;
+}
+
+.vermelho {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 5px solid rgb(255, 0, 0);
+    align-items: flex-end;
+    justify-content: flex-end;
+}
