@@ -1,0 +1,102 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+nav {
+    position: absolute;
+    width: 520px;
+    height: 330px;
+    left: 165px;
+    top: 160px;
+}
+
+.title {
+    position: absolute;
+    height: 96px;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    font-family: 'Red Rose';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 48px;
+    color: #091133;
+}
+
+
+.text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #6F7CB2;
+}
+
+
+.image-container {
+    position: absolute;
+    width: 1200px;
+    height: 730px;
+    left: 150px;
+    top: 60px;
+    display: flex; 
+    justify-content: flex-end;
+}
+
+.image-container img {
+    width: 590px; 
+    max-width: 100%; 
+    height: auto; 
+}
+
+.content {
+    position: absolute;
+    width: 520px;
+    height: 630px;
+    left: 165px;
+    top: 490px;
+}
+
+.botao1{
+width: 190px;
+height: 36px;
+top: 454px;
+left: 221px;
+gap: 0px;
+opacity: 0px;
+top: calc(50% - 26px/2);
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 26px;
+text-align: center;
+color: #FFFFFF;
+background: #111B47;
+border-radius: 2px;
+}
+
+.botao2{
+    width: 190px;
+    height: 36px;
+    top: 454px;
+    left: 221px;
+    gap: 0px;
+    opacity: 0px;
+    top: calc(50% - 26px/2);
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #111B47;
+    background: #FFFFFF;
+    border-radius: 2px;
+    }
+
