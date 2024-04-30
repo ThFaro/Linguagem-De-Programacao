@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
@@ -6,7 +6,7 @@
 body {
     background-image: url('/Tarefa11/img/dog.png');
     background-size: 1200px;
-    background-position:top;
+    background-position: top;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
@@ -22,11 +22,11 @@ header {
     padding: 10px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: 10px;
-    align-self: stretch; 
-    
+    align-self: stretch;
+
 }
 
-h1{
+h1 {
     margin-left: 600px;
 }
 
@@ -41,24 +41,25 @@ button {
     margin-left: 450px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: white;
-    
-    
+
+
 }
+
 button:hover {
     background-color: blue;
 }
 
-button:active{
+button:active {
     background-color: rgb(0, 0, 87);
 }
 
-#lista{
+#lista {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin-top: 30px;
     font-size: 30px;
     border: solid black;
     border: 10px;
-    margin-left:30px;
+    margin-left: 30px;
 }
 
 footer {
@@ -66,7 +67,7 @@ footer {
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding: 10px;
-    margin-top: auto; 
-    align-self: stretch; 
-    text-align: center; 
+    margin-top: auto;
+    align-self: stretch;
+    text-align: center;
 }

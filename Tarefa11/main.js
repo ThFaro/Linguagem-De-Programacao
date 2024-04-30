@@ -22,7 +22,7 @@ botaoCadastro.addEventListener('click', cadastrarAnimal);
 
 
 
-fetch("https://66302733c92f351c03d923af.mockapi.io/animal") 
+fetch("https://66302733c92f351c03d923af.mockapi.io/animal")
     .then(response => response.json())
     .then(data => {
 
