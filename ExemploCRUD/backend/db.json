@@ -1,0 +1,19 @@
+{
+    "animal": [
+        {
+            "nome": "Cachorro",
+            "idade": 10,
+            "raca": "Shitzu"
+        },
+        {
+            "nome": "Gato",
+            "idade": 5,
+            "raca": "Siames"
+        },
+        {
+            "nome": "Papagaio",
+            "idade": 2,
+            "raca": "Ararauna"
+        }
+    ]
+}
