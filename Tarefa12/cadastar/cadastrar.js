@@ -30,20 +30,22 @@ function atualizar() {
     var email = document.querySelector('#email').value;
     var idade = document.querySelector('#idade').value;
 
-    var cliente = {
+
+    var clientes = {
         "nome": nome,
         "idade": idade,
         "email": email
     };
 
-    fetch(`${urlServer}/${id}`, {
+
+    fetch(`${urlServer}${id}`, {
         method: 'PUT',
         headers: {
             'Content-Type': 'application/json'
         },
-        body: JSON.stringify(cliente)
+        body: JSON.stringify(clientes)
     })
-    .then(() => window.location.href = 'Tarefa12/index.html');
+    .then(() => window.location.href = '../index.html');
 }
 
 function cadastrar() {
@@ -51,10 +53,10 @@ function cadastrar() {
     var email = document.querySelector('#email').value;
     var idade = document.querySelector('#idade').value;
 
-    var cliente = {
+    var clientes = {
         "nome": nome,
-        "idade": idade,
-        "email": email
+        "email": email,
+        "idade": idade
     };
 
     fetch(`${urlServer}`, {
@@ -62,7 +64,7 @@ function cadastrar() {
         headers: {
             'Content-Type': 'application/json'
         },
-        body: JSON.stringify(cliente)
+        body: JSON.stringify(clientes)
     })
-    .then(() => window.location.href = 'Tarefa12/index.html');
+    .then(() => window.location.href = '../index.html');
 }
