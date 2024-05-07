@@ -1,5 +1,5 @@
 
-const urlServer = "http://localhost:3001/animais/";
+const urlServer = "http://localhost:3001/animal/";
 
 let btns = document.querySelectorAll('a','.menuLink');
 let currentUrl = window.location.href;

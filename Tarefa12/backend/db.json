@@ -1,0 +1,27 @@
+{
+  "clientes": [
+    {
+      "nome": "Laura Caires",
+      "idade": 37,
+      "email": "lau_k3@gmail.com",
+      "id": "0a97"
+    },
+    {
+      "nome": "Thiago Faro",
+      "idade": 37,
+      "email": "thfaro.ads@gmail.com",
+      "id": "2d99"
+    },
+    {
+      "nome": "Renan Ferrari",
+      "idade": 36,
+      "email": "renan_ferrari@gmail.com",
+      "id": "12c42"
+    },   {
+      "nome": "Lucas Zanelatto",
+      "idade": 3,
+      "email": "lucas_zan@gmail.com",
+      "id": "15v41"
+    }
+  ]
+}
