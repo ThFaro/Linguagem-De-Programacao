@@ -1,4 +1,7 @@
+
+
 function ListaClientes() {
+    
     let lista = document.querySelector("#lista");
     lista.innerHTML = "";
    
