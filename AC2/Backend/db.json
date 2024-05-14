@@ -1,0 +1,22 @@
+{
+  "Usuario": [
+    {
+      "id": "20035",
+      "nome": "Natalia Natalina ",
+      "email": "natalina@google.com",
+      "senha": "12345"
+    },
+    {
+      "id": "20046",
+      "nome": "Carol Carolina ",
+      "email": "carol@google.com",
+      "senha": "1"
+    },
+    {
+      "id": "f4b0",
+      "nome": "Thiago Faro Ribeiro",
+      "email": "thfaro.ads@gmail.com",
+      "senha": "1"
+    }
+  ]
+}

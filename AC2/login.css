@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+
+    font-family: "Inter", sans-serif;
+    color: white;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #FFDAA8;
+}
+
+main{   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    gap: 48px;
+    background-color: #FFB053;
+    width: 818px;
+    height: 516px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.25);
+}
+
+h1{
+    font-size: 36px;
+}
+
+p{
+    font-size: 20px;
+}
+
+.loginStyle{
+    color: black;
+    padding: 0 0 42px;
+}
+
+.btnEntrar{
+    font-size: 14px;
+    border: none;
+    padding: 8px 33px;
+    border-radius: 8px;
+    color: white;
+    background-color: black;
+    margin: 35px 0 0;
+    font-weight: 500;
+}
+
+.btnCadastrar{
+    font-size: 14px;
+    border: 3.5px solid white;
+    padding: 8px 33px;
+    border-radius: 8px;
+    color: white;
+    background-color: #FF9200;
+    margin: 35px 0 0;
+    font-weight: 500;
+}
+
+input{
+    width: 322px;
+    height: 41px;
+    border: none;
+    border-radius: 8px;
+    font-display: 45%;
+    color: black;
+}
+
+.inputsStyle{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 13px;
+    place-content: 10px
+}
+
+input::placeholder {
+    padding-left: 10px;
+  }
+
+.content1{
+    margin: 0px 0px 0px 88px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.content2{
+    margin: 0px 88px 0px 0px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.feedbackErro {
+    display: none; 
+    padding: 10px 0;
+    color: red;
+    font-size: 14px;
+}

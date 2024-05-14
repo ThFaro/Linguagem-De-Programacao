@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login.css">
+    <title>Página de Login e Cadastro</title>
+</head>
+<body>
+    <main>
+        <section class="content1">
+            <h1 class="loginStyle">Login</h1>
+    
+            <section class="formularios">
+                <form id="login-form">
+                    <section class="inputsStyle">
+                        <input type="email" id="email" name="email" placeholder="Email" required>
+                        <span class="erro-email"></span>
+                        <input type="password" id="senha" name="senha" placeholder="Senha" required>
+                        <span class="erro-senha"></span><br>    
+                    </section>
+                    <button class="btnEntrar" type="submit">ENTRAR</button>
+                </form>
+            </section>
+        </section>
+
+        <section class="content2">
+            <form id="cadastro-form" action="cadastrar.html">
+                <h1>Olá</h2>
+                <p>Registre-se com seus dados pessoais</p>
+                <button class="btnCadastrar" type="submit" id="cadastrar-button">CADASTRAR</button>
+            </form>
+        </section>
+    </main>
+    <script src="utils.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
