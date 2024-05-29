@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', function () {
     let cardContainer = document.querySelector('#cardContainer .row');
 
-    // Função para verificar o login
+  
     function checkLogin() {
         const userData = localStorage.getItem('userData');
         const perfilLink = document.getElementById('perfilLink');
@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', function () {
     function logout() {
         localStorage.removeItem('userData');
         checkLogin();
-        window.location.href = '/index.html'; 
+        window.location.href = '/TarefaBootStrap/index.html'; 
     }
 
     const logoutButton = document.getElementById('logoutButton');
