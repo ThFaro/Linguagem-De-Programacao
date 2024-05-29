@@ -1,8 +1,5 @@
 document.addEventListener('DOMContentLoaded', function() {
     const form = document.getElementById('profileForm');
-    const successToast = new bootstrap.Toast(document.getElementById('successToast'));
-    const errorToast = new bootstrap.Toast(document.getElementById('errorToast'));
-    const deleteToast = new bootstrap.Toast(document.getElementById('deleteToast'));
     const deleteButton = document.getElementById('deleteProfile');
 
     function loadUserData() {
@@ -30,7 +27,7 @@ document.addEventListener('DOMContentLoaded', function() {
         const confirmSenha = document.getElementById('confirmSenha').value.trim();
 
         if (!nome || !cpf || !email || !telefone || !idade || (senha && senha !== confirmSenha)) {
-            errorToast.show();
+            alert("Erro: Verifique os dados inseridos.");
             return;
         }
 
@@ -65,7 +62,7 @@ document.addEventListener('DOMContentLoaded', function() {
         })
         .catch((error) => {
             console.error('Erro:', error);
-            errorToast.show();
+            alert("Erro: Verifique os dados inseridos.");
         });
     });
 
@@ -91,8 +88,31 @@ document.addEventListener('DOMContentLoaded', function() {
             })
             .catch((error) => {
                 console.error('Erro:', error);
-                errorToast.show();
+                alert("Erro: Verifique os dados inseridos.");
             });
         }
     });
+
+    function checkLogin() {
+        const userData = localStorage.getItem('userData');
+        if (userData) {
+            perfilLink.classList.remove('disabled');
+            logoutButton.style.display = 'inline-block';
+        } else {
+            perfilLink.classList.add('disabled');
+            logoutButton.style.display = 'none';
+        }
+    }
+
+    function logout() {
+        localStorage.removeItem('userData');
+        checkLogin();
+        window.location.href = '../index.html';
+    }
+
+    if (logoutButton) {
+        logoutButton.addEventListener('click', logout);
+    }
+
+    checkLogin();
 });

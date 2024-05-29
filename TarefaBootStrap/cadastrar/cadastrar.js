@@ -1,6 +1,5 @@
 document.addEventListener('DOMContentLoaded', function() {
     const form = document.getElementById('registrationForm');
-    const successToast = new bootstrap.Toast(document.getElementById('successToast'));
     const errorToast = new bootstrap.Toast(document.getElementById('errorToast'));
 
     form.addEventListener('submit', function(event) {
@@ -48,7 +47,7 @@ document.addEventListener('DOMContentLoaded', function() {
         })
         .then(() => {
             setTimeout(() => {
-                window.location.href = '/Login.html';
+                window.location.href = '../Login.html';
             });
         })
         .catch((error) => {
@@ -56,4 +55,15 @@ document.addEventListener('DOMContentLoaded', function() {
             errorToast.show();
         });
     });
+    function checkLogin() {
+        const userData = localStorage.getItem('userData');
+        const perfilLink = document.getElementById('perfilLink');
+        if (userData) {
+            perfilLink.classList.remove('disabled');
+        } else {
+            perfilLink.classList.add('disabled');
+        }
+    }
+
+    checkLogin();
 });

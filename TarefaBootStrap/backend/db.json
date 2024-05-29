@@ -1,15 +1,57 @@
 {
   "usuario": [
     {
-      "id": "8683",
-      "nome": "Thiago Faro",
+      "nome": "Thiago Faro Ribeiro",
       "cpf": "229.238.738-74",
       "email": "thfaro.ads@gmail.com",
       "telefone": "15991220836",
       "idade": "37",
-      "password": "1234"
+      "password": "1234",
+      "id": "b1e0"
+    }
+  ],
+  "produtos": [
+    {
+      "id": "p1",
+      "nome": "Case Iphone 15 PRO MAX",
+      "descricao": "Case resistente com proteção extrema.",
+      "preco": 109.9,
+      "imagem": "https://images.tcdn.com.br/img/img_prod/484068/capa_para_iphone_15_15_pro_15_pro_max_magsafe_anti_impacto_3071_1_6f829e455f3502020061e6d152802a59.jpg"
+    },
+    {
+      "id": "p2",
+      "nome": "Headphone",
+      "descricao": "Headphone de alta qualidade com cancelamento de ruído.",
+      "preco": 539.99,
+      "imagem": "https://m.media-amazon.com/images/I/410HKif-G-L._AC_UF1000,1000_QL80_DpWeblab_.jpg"
+    },
+    {
+      "id": "p3",
+      "nome": "Teclado Gamer",
+      "descricao": "Teclado Gamer Acer Nitro .",
+      "preco": 279.9,
+      "imagem": "https://cdn.shoppub.io/cdn-cgi/image/w=1000,h=1000,q=80,f=auto/oficinadosbits/media/uploads/produtos/foto/gpsxfqay/file.png"
+    },
+    {
+      "id": "p4",
+      "nome": "Powe Bank",
+      "descricao": "PowerBank Loft 10.000 mha.",
+      "preco": 429.9,
+      "imagem": "https://http2.mlstatic.com/D_NQ_NP_706469-MLB48810394229_012022-O.webp"
+    },
+    {
+      "id": "p5",
+      "nome": "Mochila",
+      "descricao": "Mochila Thule Laptop Exeo 28 Litros Preto",
+      "preco": 850,
+      "imagem": "https://cdn.awsli.com.br/600x1000/2495/2495571/produto/218381443/e5-r97876182w.jpg"
+    },
+    {
+      "id": "p6",
+      "nome": "Cabo",
+      "descricao": "Cabo Strong 3m para iphone",
+      "preco": 139.9,
+      "imagem": "https://iloft.fbitsstatic.net/img/p/cabo-ultra-stronger-usb-mfi-2m-preto-94845/281510.jpg?w=520&h=520&v=no-change&qs=ignore"
     }
   ]
-
-  
 }
