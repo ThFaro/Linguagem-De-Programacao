@@ -1,11 +1,15 @@
 {
-    "usuario": [
-      {
-        "nome": "Thiago Faro",
-        "idade": 37,
-        "email": "th.faro86@gmail.com",
-        "password": "1234",
-        "id": "0a97"
-      }
-    ]
-  }
+  "usuario": [
+    {
+      "id": "8683",
+      "nome": "Thiago Faro",
+      "cpf": "229.238.738-74",
+      "email": "thfaro.ads@gmail.com",
+      "telefone": "15991220836",
+      "idade": "37",
+      "password": "1234"
+    }
+  ]
+
+  
+}
