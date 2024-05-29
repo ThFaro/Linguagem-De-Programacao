@@ -8,6 +8,15 @@
       "idade": "37",
       "password": "1234",
       "id": "b1e0"
+    },
+    {
+      "nome": "teste",
+      "cpf": "12345678901",
+      "email": "teste@gmail.com",
+      "telefone": "15991220836",
+      "idade": "21",
+      "password": "1",
+      "id": "6636"
     }
   ],
   "produtos": [
